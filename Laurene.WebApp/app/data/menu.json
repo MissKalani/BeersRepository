@@ -1,0 +1,26 @@
+﻿  [
+    {
+      "id": 1,
+      "text": "File",
+      "icon": "",      
+      "hasChildren": true
+    },
+    {
+      "id": 2,
+      "text": "Edit",
+      "icon": "",
+      "hasChildren": true
+    },
+    {
+      "id": 3,
+      "text": "View",
+      "icon": "",
+      "hasChildren": true
+    },
+    {
+      "id": 4,
+      "text": "Help",
+      "icon": "",
+      "hasChildren": true
+    }
+  ]

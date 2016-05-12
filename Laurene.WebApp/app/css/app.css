@@ -1,0 +1,25 @@
+﻿body {
+    background: url('../images/beers.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+button.md-button.md-ink-ripple{
+    right: 80px;
+    background-color: rgba(239, 149, 35, 0.66);
+    color: #433232;
+}
+
+md-sidenav.md-sidenav-left.ng-isolate-scope{
+     background-color: rgb(247, 149, 26);
+}
+
+.menuIcon{   
+    max-height:40px;
+}
+
+md-list-item{
+    border-bottom: solid;
+}
