@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
 
     var app = angular.module('laureneApp', ['ngMaterial']);
     app.controller('MainMenuController', function ($scope, $mdSidenav, $location) {
@@ -19,10 +19,9 @@
             $mdSidenav('left').toggle();          
         };
 
-        $scope.openPage = function (id) {          
-            console.log($location.url('/pages/' + id));
-            $location.url(id);
-         
+        $scope.openPage = function (id) {
+            console.log($location.url('/'+id));
+            $location.url('/'+id)       
         }
     });
 

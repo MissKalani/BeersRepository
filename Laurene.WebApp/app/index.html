@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" ng-app="laureneApp">
 <head>
     <base href="/app/" />
@@ -21,7 +21,7 @@
                 <md-list>
                     <md-list-item ng-repeat="menuItem in menuList" class="md-2-line">
                         <div class="md-list-item-text">
-                            <h3><a href="#/{{menuitem.id}}" ng-click="openPage(menuItem.id)">{{menuItem.title}}</a></h3>
+                            <h3><a href ng-click="openPage(menuItem.id)">{{menuItem.title}}</a></h3>
                             <p>{{menuItem.description}}</p>
                         </div>
                     </md-list-item>
