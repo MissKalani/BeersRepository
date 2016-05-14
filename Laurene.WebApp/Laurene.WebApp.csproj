@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.module.js" />
     <Content Include="app\controllers\ShowPageController.js" />
     <Content Include="app\images\beers.jpg" />
     <Content Include="app\templates\Beers.html" />
@@ -95,7 +96,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\app.js" />
     <Content Include="app\controllers\MainMenuController.js" />
     <Content Include="app\images\menu.png" />
     <Content Include="app\index.html" />
